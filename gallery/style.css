@@ -1,0 +1,45 @@
+body{
+    margin: 0%;
+}
+.back {
+    background-color: lightblue;
+    height: 100px;
+    padding: 0px;
+    position: sticky;
+    top: 0;
+}
+.logo {
+    height: 10px;
+    width: 10px;
+}
+p {
+    margin: 0px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p:hover {
+    color: black;
+}
+img {
+    height: 200px;
+    width: 300px;
+}
+img:hover {
+    border: 1px solid black;
+
+}
+figcaption {
+    width: 300px;
+    color: blue;
+}
+.box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 100px 100px;
+}
+input{
+    position: relative;
+    left: 50px;
+}
